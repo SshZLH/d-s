@@ -1,0 +1,13 @@
+server:
+  port: 8099
+
+dubbo:
+  application:
+    name: dubbo-provider
+  protocol:
+    name: dubbo
+    port: 20881
+  registry:
+    address: zookeeper://59.110.232.17:2181
+  provider:
+    timeout: 1000
